@@ -8,7 +8,7 @@ export default function Inicio() {
   return (
     <section className="w-full overflow-hidden bg-[#E87600]">
       <div
-        className="container mx-auto min-h-[40vh] bg-contain bg-[right_-82px_top_90px] bg-no-repeat xsm:bg-[right_-41px_top_90px] msm:bg-[right_0px_top_90px]  md:min-h-[60vh] md:bg-[right_-41px_top_130px] lg:min-h-[90vh] lg:bg-[right_0px_top_150px] xl:bg-[right_80px_top_150px]"
+        className="container mx-auto min-h-[40vh] bg-contain bg-[right_-52px_top_90px] bg-no-repeat xsm:bg-[right_-41px_top_90px] msm:bg-[right_0px_top_90px]  md:min-h-[60vh] md:bg-[right_-41px_top_130px] lg:min-h-[90vh] lg:bg-[right_0px_top_150px] xl:bg-[right_80px_top_150px]"
         style={{ backgroundImage: `url(${bg.src})` }}
       >
         <header className="mt-2 py-3">
