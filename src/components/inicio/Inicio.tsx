@@ -8,7 +8,7 @@ export default function Inicio() {
   return (
     <section className="w-full overflow-hidden bg-[#E87600]">
       <div
-        className="container mx-auto min-h-[40vh] bg-contain bg-[right_-52px_top_90px] bg-no-repeat xsm:bg-[right_-41px_top_90px] msm:bg-[right_0px_top_90px]  md:min-h-[60vh] md:bg-[right_-41px_top_130px] lg:min-h-[90vh] lg:bg-[right_0px_top_150px] xl:bg-[right_80px_top_150px]"
+        className="container mx-auto min-h-[40vh] bg-contain bg-[right_-12px_top_90px] bg-no-repeat xsm:bg-[right_0px_top_90px] msm:bg-[right_0px_top_90px]  md:min-h-[60vh] md:bg-[right_0px_top_130px] lg:min-h-[90vh] lg:bg-[right_0px_top_150px] xl:bg-[right_80px_top_150px]"
         style={{ backgroundImage: `url(${bg.src})` }}
       >
         <header className="mt-2 py-3">
@@ -22,7 +22,7 @@ export default function Inicio() {
           </nav>
         </header>
         <div className="container mx-auto mt-14 px-4 sm:mt-10 md:mt-24 xl:mt-32">
-          <h1 className="flex flex-col text-4xl font-extrabold uppercase tracking-wide text-[#373737] xsm:text-5xl msm:text-6xl sm:text-7xl lg:text-9xl">
+          <h1 className="flex flex-col text-4xl font-thin uppercase tracking-wider text-[#373737] xsm:text-5xl msm:text-6xl sm:text-7xl lg:text-9xl">
             clube do <br />
             <span className="flex items-center">
               botox
@@ -33,7 +33,7 @@ export default function Inicio() {
               />
             </span>
           </h1>
-          <h2 className="mt-2 text-3xl font-extrabold uppercase tracking-wide text-[#FFBCE5] xsm:text-4xl msm:text-5xl sm:text-6xl lg:text-7xl">
+          <h2 className="mt-2 text-3xl font-thin uppercase tracking-wider text-[#FFBCE5] xsm:text-4xl msm:text-5xl sm:text-6xl lg:text-7xl">
             ultraformer mpt
           </h2>
         </div>

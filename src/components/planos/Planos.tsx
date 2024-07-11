@@ -12,12 +12,12 @@ const openSans = OpenSans({
 export default function Planos() {
   return (
     <section className=" w-full overflow-hidden bg-[#E87600] py-12">
-      <div className="container relative mx-auto">
-        <div className="mb-10 w-full text-center">
-          <h1 className="mb-5 text-4xl font-extrabold uppercase tracking-wide text-[#FFBCE5] xsm:text-5xl msm:text-6xl sm:text-7xl">
+      <div className="container relative mx-auto text-center">
+        <div className="mb-10 w-full">
+          <h1 className="mb-5 text-2xl font-thin uppercase tracking-wider text-[#FFBCE5] xsm:text-3xl msm:text-4xl sm:text-5xl lg:text-6xl xl:text-7xl">
             ASSINANTES <span className="mb-2 text-[#373737]">MC 2</span> E
-            <span className="text-[#373737]"> MC 3</span> GANHAM 1 SESSÃO DE
-            ULTRAFORMER MPT
+            <span className="text-[#373737]"> MC 3</span> GANHAM
+            <br className="hidden md:block" /> 1 SESSÃO DE ULTRAFORMER MPT
           </h1>
         </div>
         <div
@@ -26,7 +26,7 @@ export default function Planos() {
           <div>
             <Card className="min-h-[570px] w-full bg-white text-center tracking-wide xsm:w-[350px]">
               <CardHeader>
-                <CardTitle className="text-6xl font-extrabold text-[#FF293A]">
+                <CardTitle className="text-6xl font-bold text-[#FF293A]">
                   MC1
                 </CardTitle>
               </CardHeader>
@@ -51,7 +51,7 @@ export default function Planos() {
                 </div>
                 <div className="mt-56">
                   <Link href="https://api.whatsapp.com/send/?phone=553138912160&text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+clube+do+botox&type=phone_number&app_absent=0">
-                    <button className="rounded-full bg-[#FF293A] px-3 py-3 text-base font-semibold uppercase text-white xsm:px-7 xsm:text-lg">
+                    <button className="animate-scale rounded-full bg-[#FF293A] px-3 py-3 text-base font-semibold uppercase text-white xsm:px-7 xsm:text-lg">
                       quero assinar
                     </button>
                   </Link>
@@ -62,7 +62,7 @@ export default function Planos() {
           <div>
             <Card className="min-h-[570px] w-full bg-white text-center tracking-wide xsm:w-[350px]">
               <CardHeader>
-                <CardTitle className="text-6xl font-extrabold text-[#FF293A]">
+                <CardTitle className="text-6xl font-bold text-[#FF293A]">
                   MC2
                 </CardTitle>
               </CardHeader>
@@ -85,7 +85,7 @@ export default function Planos() {
                     agendamento preferencial
                   </h1>
                 </div>
-                <div className="mt-5">
+                <div className="mt-5 animate-bounce">
                   <span className="rounded-2xl bg-[#E87600] px-2 py-2 text-sm font-bold uppercase text-white xsm:px-7 xsm:text-xl">
                     presente exclusivo
                   </span>
@@ -98,7 +98,7 @@ export default function Planos() {
                 </div>
                 <div className="mt-[115px]">
                   <Link href="https://api.whatsapp.com/send/?phone=553138912160&text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+clube+do+botox&type=phone_number&app_absent=0">
-                    <button className="rounded-full bg-[#FF293A] px-3 py-3 text-base font-semibold uppercase text-white xsm:px-7 xsm:text-lg">
+                    <button className="animate-scale rounded-full bg-[#FF293A] px-3 py-3 text-base font-semibold uppercase text-white xsm:px-7 xsm:text-lg">
                       quero assinar
                     </button>
                   </Link>
@@ -109,7 +109,7 @@ export default function Planos() {
           <div>
             <Card className="min-h-[570px] w-full bg-white text-center tracking-wide xsm:w-[350px]">
               <CardHeader>
-                <CardTitle className="text-6xl font-extrabold text-[#FF293A]">
+                <CardTitle className="text-6xl font-bold text-[#FF293A]">
                   MC3
                 </CardTitle>
               </CardHeader>
@@ -132,7 +132,7 @@ export default function Planos() {
                     agendamento preferencial
                   </h1>
                 </div>
-                <div className="mt-5">
+                <div className="mt-5 animate-bounce ">
                   <span className="rounded-2xl bg-[#E87600] px-2 py-2 text-sm font-bold uppercase text-white xsm:px-7 xsm:text-xl">
                     presente exclusivo
                   </span>
@@ -157,7 +157,7 @@ export default function Planos() {
                 </div>
                 <div className="mt-10">
                   <Link href="https://api.whatsapp.com/send/?phone=553138912160&text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+clube+do+botox&type=phone_number&app_absent=0">
-                    <button className="rounded-full bg-[#FF293A] px-3 py-3 text-base font-semibold uppercase text-white xsm:px-7 xsm:text-lg">
+                    <button className="animate-scale rounded-full bg-[#FF293A] px-3 py-3 text-base font-semibold uppercase text-white xsm:px-7 xsm:text-lg">
                       quero assinar
                     </button>
                   </Link>
@@ -169,7 +169,7 @@ export default function Planos() {
         <Image
           src={robo}
           alt="robô"
-          className="absolute -bottom-10 -right-5 z-0 h-auto max-w-[40%] md:-bottom-20 md:-right-10 xlg:-right-20 xlg:max-w-[17%]  2xl:-bottom-32 2xl:-right-48 2xl:max-w-[25%]"
+          className="absolute -bottom-14 -right-14 z-0 h-auto max-w-[60%] xsm:max-w-[57%] sm:max-w-[47%] md:-bottom-20 md:-right-10 xlg:-right-20 xlg:max-w-[20%]  2xl:-bottom-32 2xl:-right-48 2xl:max-w-[25%]"
         />
       </div>
     </section>

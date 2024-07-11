@@ -68,11 +68,16 @@ const config: Config = {
           '0%': { transform: 'translate(-100%, 0)' },
           '100%': { transform: 'translate(0, 0)' },
         },
+        scale: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.1)' },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
         'left-to-right': 'leftToRight 5s linear infinite',
+        scale: 'scale 2s infinite',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
