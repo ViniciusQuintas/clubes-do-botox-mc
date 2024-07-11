@@ -12,7 +12,9 @@ export default function SaibaMais() {
   return (
     <section className="container mx-auto pb-16 pt-10">
       <div className="flex flex-col items-center">
-        <h1 className="mb-8 text-3xl text-[#373737]">Quer saber mais?</h1>
+        <h1 className="mb-8 text-2xl text-[#373737] sm:text-4xl">
+          Quer saber mais?
+        </h1>
         <Link href="https://api.whatsapp.com/send/?phone=553138912160&text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+clube+do+botox&type=phone_number&app_absent=0">
           <button
             className={`flex w-60 items-center justify-between rounded-full bg-gradient-to-r from-zinc-300 to-black text-white ${openSans.className} animate-scale pr-4`}
