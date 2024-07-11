@@ -50,7 +50,7 @@ export default function Video() {
           </div>
           <Link
             href="https://api.whatsapp.com/send/?phone=553138912160&text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+clube+do+botox&type=phone_number&app_absent=0"
-            className={`tracking-bounce animate-scale bg-[#E87600] px-10 py-3 text-center text-sm font-medium uppercase text-white xsm:py-4 xsm:text-lg sm:px-20 lg:self-end ${openSans.className}`}
+            className={`tracking-bounce animate-scale bg-[#E87600] px-8 py-3 text-center text-xs font-medium uppercase text-white xsm:py-4 xsm:text-lg sm:px-20 lg:self-end ${openSans.className}`}
           >
             quero mais informações
           </Link>
