@@ -32,7 +32,7 @@ export default function SaibaMais() {
         className={`mt-28 flex flex-col items-center justify-between gap-y-10 sm:flex-row sm:items-start ${openSans.className}`}
       >
         <div className="flex flex-col items-center sm:items-start">
-          <h2 className="mb-7 text-lg font-bold sm:text-2xl">Endereços</h2>
+          <h2 className="mb-7 text-base font-bold sm:text-2xl">Endereços</h2>
           <h3 className="text-base font-semibold">
             R. Padre Anchieta, 211 Bairro Ramos Viçosa - MG
           </h3>
@@ -42,7 +42,7 @@ export default function SaibaMais() {
         </div>
         <div>
           <div className="mb-10 text-center">
-            <h2 className="mb-7 text-lg font-bold sm:text-2xl">Contatos</h2>
+            <h2 className="mb-7 text-base font-bold sm:text-2xl">Contatos</h2>
             <Link
               href="https://api.whatsapp.com/send/?phone=553138912160&text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+o+clube+do+botox&type=phone_number&app_absent=0"
               className="flex items-center justify-center text-lg font-semibold"
@@ -51,7 +51,7 @@ export default function SaibaMais() {
             </Link>
           </div>
           <div className="text-center">
-            <h2 className="mb-7 text-lg font-bold sm:text-2xl">Acompanhe</h2>
+            <h2 className="mb-7 text-base font-bold sm:text-2xl">Acompanhe</h2>
             <div className="flex items-center justify-center gap-x-5">
               <Link href="https://www.instagram.com/sense.clinicamg/">
                 <Facebook className="h-6 w-6" />
