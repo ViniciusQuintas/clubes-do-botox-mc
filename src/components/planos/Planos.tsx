@@ -169,7 +169,7 @@ export default function Planos() {
         <Image
           src={robo}
           alt="robô"
-          className="absolute -bottom-14 -left-24 z-0 h-auto max-w-[80%] xsm:max-w-[65%] sm:-left-0 sm:max-w-[42%]  md:-bottom-20 xlg:-left-32 xlg:max-w-[30%]  2xl:-bottom-32 2xl:-right-48 2xl:max-w-[25%]"
+          className="absolute -bottom-14 -left-28 z-0 h-auto max-w-[83%] xsm:max-w-[65%] sm:-left-0 sm:max-w-[42%]  md:-bottom-20 xlg:-left-32 xlg:max-w-[30%]  2xl:-bottom-32 2xl:-right-48 2xl:max-w-[25%]"
         />
       </div>
     </section>
