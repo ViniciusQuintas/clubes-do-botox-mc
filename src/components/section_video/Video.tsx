@@ -30,8 +30,8 @@ export default function Video() {
           transition={{ duration: 1 }}
           whileInView={{ opacity: 1, y: 0 }}
         >
-          <h1 className="text-[26px] font-thin tracking-wider text-[#E87600] xsm:text-4xl msm:mb-2 msm:text-5xl xl:text-7xl">
-            ENTENDA EM 1 MINUTO
+          <h1 className="text-[26px] font-thin tracking-wider text-[#E87600] xsm:text-4xl msm:mb-2 msm:text-4xl xl:text-[52px]">
+            ENTENDA EM 1 MINUTO E MEIO
           </h1>
           <h1
             className="text-[40px] font-thin tracking-wider text-[#E87600] xsm:text-5xl
@@ -57,7 +57,7 @@ export default function Video() {
         </m.div>
         <div className="w-full max-w-[600px] lg:max-w-[500px] xl:max-w-[550px] 2xl:max-w-[600px]">
           <YouTube
-            videoId="wcKbehJ-hjE"
+            videoId="hq0a3AzUJEQ"
             opts={opts}
             onReady={onPlayerReady}
             className="h-[360px]"
