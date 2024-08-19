@@ -11,7 +11,7 @@ const openSans = OpenSans({
 })
 export default function Planos() {
   return (
-    <section className=" w-full overflow-hidden bg-[#E87600] py-12">
+    <section className=" w-full overflow-hidden bg-[#E87600] py-12 pt-24">
       <div className="container relative mx-auto text-center">
         <div className="mb-10 w-full">
           <h1 className="mb-5 text-2xl font-thin uppercase tracking-wider text-[#FFBCE5] xsm:text-3xl msm:text-4xl sm:text-5xl lg:text-6xl xl:text-7xl">
